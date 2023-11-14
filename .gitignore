@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+node_modules/
+dist/
+.env
+tmp/
+temp/
+yarn-error.log
+yarn.lock
+
+# DB
+db_auth/
+
+# Docker
+docker-compose.yml
