@@ -39,7 +39,7 @@ import { dataSource } from './data-source';
   app.get('*', (_: Request, res: Response) => {
     res.status(200).json({
       message:
-        'This is the API for Auth Module application, please use the endpoints.',
+        'This is the API for SmartFlow application, please use the endpoints.',
       is_db_connected: isDbConnected,
     });
   });
