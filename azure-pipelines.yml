@@ -5,7 +5,7 @@ trigger:
    vmImage: 'ubuntu-latest' 
 
  variables:
-   imageName: 'pipelines-docker'
+   imageName: 'pipelinesdocker'
 
  steps:
  - task: Docker@2
