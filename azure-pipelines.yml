@@ -13,4 +13,4 @@ trigger:
    inputs:
      repository: $(imageName)
      command: build
-     Dockerfile: ./Dockerfile
+     Dockerfile: app/Dockerfile
